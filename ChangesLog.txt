@@ -1,0 +1,49 @@
+22 February 2018
+   released version 0.0.7 of AutoInstall
+
+     Change log:
+        -New: Neue Registry Tricks eingebaut (Windows 10)
+        -New: Neue Reg Tricks eingebaut (alle Windows Ver)
+        -Fixed: Zeilensprung angepasst ; Registry Keys korrigiert
+        -New: Windows Version auslesen und ändern(DEBUG)
+        -New: XNA Framework hinzugefügt
+        -Fixed: Branding hat nicht funkioniert
+        -Fixed: Ein paar Rechtschreibfehler gefixt
+        -New: Xing und Facebook Apps mit entfernen
+        -New: 7-zip Dateihandling hinzugefügt - als Datei
+        -New: SMB1 Protokoll gestoppt(Windows10)
+        -Fixed: Herunterfahren nach kompletter Installation
+        -Added: Powershell 5.1 installieren
+        -Added: Ein paar Meldungen hinzugefügt
+        -Typo: Powershell geht wieder
+
+22 November 2016
+   released version 0.0.8 of AutoInstall
+
+     Change log:
+        -Added: integrated Registry Tweaks
+        -Added: All Registry Tweaks included
+        -Cleaned: Some Texts and coding
+        -Added: 2 new reg tweals
+        -Fixed: little error with Counting
+        -Added: Recoqnize Architecture
+        -Removed: Recoqnize Architecture
+        -Fixed: Going to C++11 Style Random Numbers
+        -New: Recoqnizes Architecture now for sure!
+        -Cleaned: text extracted
+
+15 September 2016
+   released version 0.0.0 of AutoInstall
+
+     Change log:
+        -Cleaned: some Code cleanup
+        -Cleaned: Some Code cleanup
+        -Added: unfinished Reg Class
+        -Added: finished Reg Class function
+
+02 September 2016
+   released version 0.0.1 of AutoInstall
+
+     Change log:
+        -Updated: CMD Colour Changed - MS Office partial included(NOT WORKING!) - Some Code cleanup
+
