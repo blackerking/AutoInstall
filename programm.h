@@ -5,8 +5,6 @@
 #include <fstream>
 #include "safecin.h"
 #include "debugmodes.h"
-//#include "textfile.h"
-#include "programmlang.h"
 
 class programm
 {
@@ -40,6 +38,8 @@ private:
     int a{0};
     bool firstrun{1};
     bool install{false};
+    std::string msgfehlertext = " - Fehler bei der Installation!\n\nFehlercode: ";
+    std::string frage = " Installieren? ";
 };
 
 #endif // PROGRAMM_H

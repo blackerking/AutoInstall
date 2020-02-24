@@ -124,7 +124,7 @@ void programm::abfrage(std::string a)
 
 std::string programm::chkregtyp(std::string argv)
 {
-
+    //PRÜFE OB REGTYP dem entspricht, was es sein soll!
     /*switch(argv)
     {
         case "DWORD"
@@ -142,7 +142,7 @@ std::string programm::chkregtyp(std::string argv)
 void programm::reginstall(std::string v, std::string w, std::string x, std::string y,std::string z,int i)
 {
     /* checke regtyp */
-    char sonderzeichen = '"'; //lässt sich sonst im Stream nicht verwenden
+    char sonderzeichen = '"'; //Anführungszeichen EVERYWHERE ;-)
     regbeschr   = v;
     regname     = w;
     regpfad     = x;

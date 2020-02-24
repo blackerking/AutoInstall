@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AutoInstall" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_gnu_gcc_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/AutoInstall" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_-dwarf-" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/AutoInstall" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<ExtraCommands>
+					<Add before="windres resource.rc resource.res" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl," />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add option="-Wl,--allow-multiple-definition" />
+		</Linker>
+		<Unit filename="action.cpp" />
+		<Unit filename="action.h" />
+		<Unit filename="chksys.cpp" />
+		<Unit filename="chksys.h" />
+		<Unit filename="debugmodes.cpp" />
+		<Unit filename="debugmodes.h" />
+		<Unit filename="logo.cpp" />
+		<Unit filename="logo.h" />
+		<Unit filename="logo.ico" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="mainlang.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="namestart.h" />
+		<Unit filename="programm.cpp" />
+		<Unit filename="programm.h" />
+		<Unit filename="programminstall.cpp" />
+		<Unit filename="programminstall.h" />
+		<Unit filename="programmlang.h" />
+		<Unit filename="readme.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="regs.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="safecin.cpp" />
+		<Unit filename="safecin.h" />
+		<Unit filename="safecinlang.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="textfile.h" />
+		<Unit filename="version.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="0" date_declarations="1" use_define="1" update_manifest="1" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<DoxyBlocks>
+				<comment_style block="5" line="2" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

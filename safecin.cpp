@@ -10,13 +10,13 @@ bool safecinbooltrue(void)
 
        do{
             std::cin >> x;
-            if(x=="true" || x=="True"|| x=="Ja" || x=="ja" || x=="1")
+            if(x=="true" || x=="True"|| x=="Ja" || x=="ja" || x=="1" || x=="yes" || x=="Yes")
             {
                 a=1;
                 b = true;
             }
     /*False Aussagen */
-            if(x=="false" || x=="False" || x=="nein" || x=="0" || x=="Nein")
+            if(x=="false" || x=="False" || x=="nein" || x=="0" || x=="Nein" || x=="No" || x=="NO")
             {
                 a=1;
                 b = false;

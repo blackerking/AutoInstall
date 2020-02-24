@@ -28,7 +28,7 @@ class action
         void tasksymbole(void);
         void deskicons(void);
         void muellbeseitung(void);
-        //void brand(void);
+        //void branding(void); <- removed!
         void energieset(void);
         void safescreen10(void);
         void aappins(void);

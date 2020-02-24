@@ -19,7 +19,7 @@
 
 #define aktwin7 "6.1.7601"
 #define aktwin8 "6.3.9600"
-#define aktwin10 "10.0.17763"
+#define aktwin10 "10.0.18363"
 
 
 

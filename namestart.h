@@ -47,7 +47,7 @@ int  prg06txttabs = {2};
 
 /*IT Taucha */
 
-string prg08name  = {"IT-s Fernwartung"};
+string prg08name  = {"IT-Taucha Fernwartung"};
 string prg08datei = {"ittaucha.exe"};
 string prg08start = {"/S"};
 int  prg08txttabs = {1};
@@ -91,7 +91,7 @@ int  prg13txttabs = {2};
 
 string prg14name  = {"PDFCreator"};
 string prg14datei = {"pdfcreator.exe"};
-string prg14start = {"/ForceInstall /VERYSILENT /LANG=English /COMPONENTS=""program,ghostscript"" /NORESTART"};
+string prg14start = {"/ForceInstall /VERYSILENT /LANG=German /COMPONENTS=""program,ghostscript"" /NORESTART"};
 int  prg14txttabs = {2};
 
 /* Driverbooster */
@@ -103,6 +103,7 @@ int  prg16txttabs = {2};
 
 
 /** Microsoft Office Versionen **/
+//NICHT FUNKTIONSFÄHIG//
 string mo         = {"Microsoft Office Version"};
 string mopfad     = {"msoffice\\"};
 bool mo03install, mo07install, mo10hsinstall, mo10hbinstall, mo10pinstall = {false};
@@ -133,12 +134,13 @@ string mo16hbname = {"MS Office 2016 Home & Business"};
 string mo16pname  = {"MS Office 2016 Professional"};
 string mo365hname = {"MS Office 365 Home"};
 string mo365pname = {"MS Office 365 Personal"};
-string modatei    = {"8372 9hf923h 9h3"};
+string modatei    = {""};
 string mo13start  = {"system\\"};
 // https://technet.microsoft.com/de-de/library/dd630736.aspx - MO13 Install tricks
 // https://flowest.blogspot.de/2015/10/office-2016-deployment-silent.html  - MO16 Install tricks
 
 /** Virenscanner **/
+//DURCH WINDOWS 10 INTEGRIERTER VIRENSCANNER OBSOLET//
 string vir        = {"Virenscanner"};
 string virpfad    = {"Andere\\Virenscanner\\"};
 
@@ -185,7 +187,6 @@ bool suainstall = {false};
 int suatxttabs = {2};
 
 /* XNA Framework */
-
 string subname  = {"XNA Framework"};
 string subdatei = {supfad + "xnafx40_redist.msi"};
 string substart = {"/quiet"};
@@ -225,9 +226,9 @@ string sufstart = {"/quiet /norestart"};
 bool sufinstall = {false};
 int  suftxttabs = {2};
 
-/* Windows 10 FALL Update */
-string suxxname  = {"Windows 10 Fall Upgrade"};
-string suxxdatei = {supfad + "Windows10Upgrade28096.exe"};
+/* Windows 10 Update */
+string suxxname  = {"Windows 10 Upgrade"};
+string suxxdatei = {supfad + "Windows10Upgrade.exe"};
 string suxxstart = {""};
 bool suxxinstall = {false};
 int  suxxtxttabs = {2};
