@@ -3,6 +3,7 @@
 
 ## "Small" tool for installing software/updates
 and much more.
+
 Can install:     MSI ; EXE
 Can apply:       REG; PS1
 
