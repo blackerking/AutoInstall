@@ -1,8 +1,7 @@
 
 # AutoInstall
 
-## "Small" tool for installing software/updates
-and much more.
+## "Small" tool for installing software/updates and much more.
 
 Can install:     MSI ; EXE
 Can apply:       REG; PS1
@@ -22,6 +21,7 @@ settings. Second for choosing software.
 Registryhacks are applied all.
 
 ## Compiler Settings
+
 Supported Compiler:
 i686-w64-mingw32-g++
 
@@ -37,6 +37,7 @@ Compiler Settings:
 -static-libstdc++
 
 ## Infos
+
 installationfiles:
 x64\setupname.exe or .msi
 x32\setupname.exe or .msi
@@ -45,6 +46,8 @@ Andere\Virenscanner\ -> not so used
 system\WinPKG.exe -> for example
 
 ## Greetings
+
 Greetings to my friends of IT-Taucha
+
 Greetings to Eric O. for his ideas and
 solid questions.
