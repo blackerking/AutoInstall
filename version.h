@@ -2,28 +2,28 @@
 #define VERSION_H
 
 namespace AutoVersion{
-	//THIS PLUGIN FOR CB IS ****!
+	
 	//Date Version Types
-	#define DATE "24"
-	#define MONTH "02"
+	#define DATE "21"
+	#define MONTH "10"
 	#define YEAR "2020"
-	#define UBUNTU_VERSION_STYLE  "20.02"
+	#define UBUNTU_VERSION_STYLE  "20.10"
 	
 	//Software Status
-	#define STATUS  "FINAL"
+	#define STATUS  ""
 	#define STATUS_SHORT  ""
 	
 	//Standard Version Type
-	#define MAJOR  2
+	#define MAJOR  0
 	#define MINOR  0
-	#define BUILD  0
-	#define REVISION  0
+	#define BUILD  2
+	#define REVISION  18
 	
 	//Miscellaneous Version Types
-	#define BUILDS_COUNT  1334
-	#define RC_FILEVERSION 2,0,0,0
-	#define RC_FILEVERSION_STRING "2, 0, 0, 0\0"
-	#define FULLVERSION_STRING  "2.0.0.0"
+	#define BUILDS_COUNT  1
+	#define RC_FILEVERSION 0,0,2,18
+	#define RC_FILEVERSION_STRING "0, 0, 2, 18\0"
+	#define FULLVERSION_STRING  "0.0.2.18"
 	
 	//These values are to keep track of your versioning state, don't modify them.
 	#define BUILD_HISTORY  0

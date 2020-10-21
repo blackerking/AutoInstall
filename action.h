@@ -28,7 +28,7 @@ class action
         void tasksymbole(void);
         void deskicons(void);
         void muellbeseitung(void);
-        //void branding(void); <- removed!
+        //void brand(void);
         void energieset(void);
         void safescreen10(void);
         void aappins(void);
@@ -44,6 +44,7 @@ class action
         void kontakteausblenden(void);
         void schutzaktiv10(void);
         void taskansichticon(void);
+        void xpsviewerinstall(void);
 };
 
 #endif // ACTION_H

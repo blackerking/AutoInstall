@@ -71,6 +71,7 @@ void action::win10(void)                    //Windows 10 Befehl ausführen
     energieset();
     actpup10();
     nwschutz10();
+    xpsviewerinstall();
     kontakteausblenden();
     schutzaktiv10();
     taskansichticon();
@@ -270,4 +271,9 @@ void action::taskansichticon(void)
     programm reg;
     reg.reginstall(regm1beschr,regm1name,regm1pfad,regm1art,regm1wert,reglanzahl);
     std::cout << erledigt << std::endl;
+}
+
+void action::xpsviewerinstall(void)
+{
+    powershell("Add-WindowsCapability -Online -Name \"XPS.Viewer*\"");
 }
